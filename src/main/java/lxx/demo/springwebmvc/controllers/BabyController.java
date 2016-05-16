@@ -12,6 +12,7 @@ public class BabyController {
 
 	@RequestMapping({ "", "/" })
 	public FatBaby[] list() {
+		System.out.println("ahaha.");
 		return new FatBaby[] { new FatBaby(6, "Shode"), new FatBaby(11, "Pangnyo"), };
 	}
 
